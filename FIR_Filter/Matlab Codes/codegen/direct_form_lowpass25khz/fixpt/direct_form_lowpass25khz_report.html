@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fixed-Point Report for direct_form_lowpass25khz</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+	body { font-family: monospace; }
+	h2 { font-family: Arial, Helvetica, sans-serif; color: #990000; margin-top: 50px; }
+	table,th,td { border: 1px solid black; }
+	table { margin-top: 30px; }
+	th { align: center; font-weight: bold; }
+	tr.h { background-color: #99CCFF; }
+	tr.a { background-color: #EEEEFF; }
+	tr.b { background-color: #FFFFFF; }
+	tr.c { background-color: #FFA500; }
+	tr.a td, tr.b td { border-style: none; }
+	td.left { text-align: left; }
+	td.right { text-align: right; }
+	td.center { text-align: center; }
+	td.bold { font-weight: bold; }
+	pre { padding: 0px; margin: 0px; }
+	span { font-style: italic; }
+	.code, .code tr, .code th, .code td { border: none; border-collapse: collapse; }
+	.padd { padding-left: 5px; }
+	td.cov, th.cov { width: 50px; height: 20px; text-align: center; font-weight: bold; border-right: 2px solid black; cell-spacing: 0px; }
+	td.cov { vertical-align: top; }
+	td.black { color: #000000; font-weight: bold; padding-top: 4px; }
+	td.white { color: #FFFFFF; font-weight: bold; padding-top: 4px; }
+	.code th { font-weight: bold; border-bottom: 2px solid black; }
+</style>
+</head>
+<body>
+<h3>Generated on  2023-03-27 18:53:56</h3>
+<p>The following table shows fixed point instrumentation results</p>
+<h2>Fixed-Point Report <span>direct_form_lowpass25khz<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function [y] = direct_form_lowpass25khz(x,h0,h1,h2,h3,h4)
+	persistent h0_reg h1_reg h2_reg h3_reg h4_reg x_reg_1 x_reg_2 x_reg_3 x_reg_4 x_reg_5 x_reg_6 x_reg_7 x_reg_8 x_reg_9;
+</pre></TD>
+</TR>
+<TR>
+<TD class="cov black" style="background-color: rgb(255,160,118);">Once</TD>
+<TD class="padd"><pre>	if (isempty(x_reg_1))
+		 	h0_reg=0;
+ 	h1_reg=0;
+ 	h2_reg=0;
+ 	h3_reg=0;
+ 	h4_reg=0;
+ x_reg_1 = 0; x_reg_2 = 0; x_reg_3 = 0; x_reg_4 = 0; x_reg_5 = 0; x_reg_6 = 0; x_reg_7 = 0; x_reg_8 = 0; x_reg_9 = 0;
+	end</pre></TD>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>
+
+	[N1_mul] = basic_mul(x,h0_reg);
+	[N2_mul] = basic_mul(x_reg_1,h1_reg);
+	[N3_mul] = basic_mul(x_reg_2,h2_reg);
+	[N4_mul] = basic_mul(x_reg_3,h3_reg);
+	[N5_mul] = basic_mul(x_reg_4,h4_reg);
+	[N6_mul] = basic_mul(x_reg_5,h4_reg);
+	[N7_mul] = basic_mul(x_reg_6,h3_reg);
+	[N8_mul] = basic_mul(x_reg_7,h2_reg);
+	[N9_mul] = basic_mul(x_reg_8,h1_reg);
+	[N10_mul] = basic_mul(x_reg_9,h0_reg);
+	[N11_mul] = basic_add(N1_mul,N2_mul);
+	[N12_mul] = basic_add(N3_mul,N11_mul);
+	[N13_mul] = basic_add(N4_mul,N12_mul);
+	[N14_mul] = basic_add(N5_mul,N13_mul);
+	[N15_mul] = basic_add(N6_mul,N14_mul);
+	[N16_mul] = basic_add(N7_mul,N15_mul);
+	[N17_mul] = basic_add(N8_mul,N16_mul);
+	[N18_mul] = basic_add(N9_mul,N17_mul);
+	[N19_mul] = basic_add(N10_mul,N18_mul);
+
+	y = N19_mul;
+
+	x_reg_9 = x_reg_8;
+	x_reg_8 = x_reg_7;
+	x_reg_7 = x_reg_6;
+	x_reg_6 = x_reg_5;
+	x_reg_5 = x_reg_4;
+	x_reg_4 = x_reg_3;
+	x_reg_3 = x_reg_2;
+	x_reg_2 = x_reg_1;
+	x_reg_1 = x;
+ 	h0_reg=h0;
+ 	h1_reg=h1;
+ 	h2_reg=h2;
+ 	h3_reg=h3;
+ 	h4_reg=h4;
+
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">N10_mul</TD><TD class="left">double</TD><TD class="right">-0.00518122868759844</TD><TD class="right">0.005140373151838741</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 20)</TD></TR>
+<TR class="b">
+<TD class="left">N11_mul</TD><TD class="left">double</TD><TD class="right">-0.03434254743279589</TD><TD class="right">0.034181241191779524</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 17)</TD></TR>
+<TR class="a">
+<TD class="left">N12_mul</TD><TD class="left">double</TD><TD class="right">-0.15493444289738872</TD><TD class="right">0.15550056575417073</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 15)</TD></TR>
+<TR class="b">
+<TD class="left">N13_mul</TD><TD class="left">double</TD><TD class="right">-0.31832620158697866</TD><TD class="right">0.3207429308912611</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="a">
+<TD class="left">N14_mul</TD><TD class="left">double</TD><TD class="right">-0.41031798140204345</TD><TD class="right">0.41210756389207404</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="b">
+<TD class="left">N15_mul</TD><TD class="left">double</TD><TD class="right">-0.3472423408540276</TD><TD class="right">0.34570678534011834</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="a">
+<TD class="left">N16_mul</TD><TD class="left">double</TD><TD class="right">-0.17498257445597581</TD><TD class="right">0.292439185563914</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="b">
+<TD class="left">N17_mul</TD><TD class="left">double</TD><TD class="right">-0.03469897494122723</TD><TD class="right">0.292439185563914</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="a">
+<TD class="left">N18_mul</TD><TD class="left">double</TD><TD class="right">-0.03309348600810151</TD><TD class="right">0.292439185563914</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="b">
+<TD class="left">N19_mul</TD><TD class="left">double</TD><TD class="right">-0.03035097144924695</TD><TD class="right">0.292439185563914</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="a">
+<TD class="left">N1_mul</TD><TD class="left">double</TD><TD class="right">-0.00518122868759844</TD><TD class="right">0.005140373151838764</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 20)</TD></TR>
+<TR class="b">
+<TD class="left">N2_mul</TD><TD class="left">double</TD><TD class="right">-0.0340172153917015</TD><TD class="right">0.0342875832266481</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 17)</TD></TR>
+<TR class="a">
+<TD class="left">N3_mul</TD><TD class="left">double</TD><TD class="right">-0.1434911396176481</TD><TD class="right">0.144631603006721</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 15)</TD></TR>
+<TR class="b">
+<TD class="left">N4_mul</TD><TD class="left">double</TD><TD class="right">-0.30305747276440476</TD><TD class="right">0.305466164711475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="a">
+<TD class="left">N5_mul</TD><TD class="left">double</TD><TD class="right">-0.4248168176147424</TD><TD class="right">0.428193249280442</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="b">
+<TD class="left">N6_mul</TD><TD class="left">double</TD><TD class="right">-0.4248168176147424</TD><TD class="right">0.428193249280442</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="a">
+<TD class="left">N7_mul</TD><TD class="left">double</TD><TD class="right">-0.30305747276440476</TD><TD class="right">0.305466164711475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="b">
+<TD class="left">N8_mul</TD><TD class="left">double</TD><TD class="right">-0.14349113961764745</TD><TD class="right">0.144631603006721</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 15)</TD></TR>
+<TR class="a">
+<TD class="left">N9_mul</TD><TD class="left">double</TD><TD class="right">-0.034017215391701355</TD><TD class="right">0.0342875832266481</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 17)</TD></TR>
+<TR class="b">
+<TD class="left">h0</TD><TD class="left">double</TD><TD class="right">-0.00518122868759844</TD><TD class="right">-0.00518122868759844</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 20)</TD></TR>
+<TR class="a">
+<TD class="left">h0_reg</TD><TD class="left">double</TD><TD class="right">-0.00518122868759844</TD><TD class="right">0</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 13)</TD></TR>
+<TR class="b">
+<TD class="left">h1</TD><TD class="left">double</TD><TD class="right">0.0342875832266481</TD><TD class="right">0.0342875832266481</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 18)</TD></TR>
+<TR class="a">
+<TD class="left">h1_reg</TD><TD class="left">double</TD><TD class="right">0</TD><TD class="right">0.0342875832266481</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 18)</TD></TR>
+<TR class="b">
+<TD class="left">h2</TD><TD class="left">double</TD><TD class="right">0.144631603006721</TD><TD class="right">0.144631603006721</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 16)</TD></TR>
+<TR class="a">
+<TD class="left">h2_reg</TD><TD class="left">double</TD><TD class="right">0</TD><TD class="right">0.144631603006721</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 16)</TD></TR>
+<TR class="b">
+<TD class="left">h3</TD><TD class="left">double</TD><TD class="right">0.305466164711475</TD><TD class="right">0.305466164711475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 15)</TD></TR>
+<TR class="a">
+<TD class="left">h3_reg</TD><TD class="left">double</TD><TD class="right">0</TD><TD class="right">0.305466164711475</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 15)</TD></TR>
+<TR class="b">
+<TD class="left">h4</TD><TD class="left">double</TD><TD class="right">0.428193249280442</TD><TD class="right">0.428193249280442</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 15)</TD></TR>
+<TR class="a">
+<TD class="left">h4_reg</TD><TD class="left">double</TD><TD class="right">0</TD><TD class="right">0.428193249280442</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(0, 14, 15)</TD></TR>
+<TR class="b">
+<TD class="left">x</TD><TD class="left">double</TD><TD class="right">-0.9921147013144843</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="a">
+<TD class="left">x_reg_1</TD><TD class="left">double</TD><TD class="right">-0.9921147013144843</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="b">
+<TD class="left">x_reg_2</TD><TD class="left">double</TD><TD class="right">-0.9921147013144843</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="a">
+<TD class="left">x_reg_3</TD><TD class="left">double</TD><TD class="right">-0.9921147013144843</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="b">
+<TD class="left">x_reg_4</TD><TD class="left">double</TD><TD class="right">-0.99211470131448</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="a">
+<TD class="left">x_reg_5</TD><TD class="left">double</TD><TD class="right">-0.99211470131448</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="b">
+<TD class="left">x_reg_6</TD><TD class="left">double</TD><TD class="right">-0.99211470131448</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="a">
+<TD class="left">x_reg_7</TD><TD class="left">double</TD><TD class="right">-0.99211470131448</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="b">
+<TD class="left">x_reg_8</TD><TD class="left">double</TD><TD class="right">-0.99211470131448</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="a">
+<TD class="left">x_reg_9</TD><TD class="left">double</TD><TD class="right">-0.99211470131448</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="b">
+<TD class="left">y</TD><TD class="left">double</TD><TD class="right">-0.03035097144924695</TD><TD class="right">0.292439185563914</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+</TABLE>
+
+<h2>Fixed-Point Report <span>basic_mul<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function [out] = basic_mul(in1,in2)
+    out = in1 * in2;
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">in1</TD><TD class="left">double</TD><TD class="right">-0.9921147013144843</TD><TD class="right">1</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 12)</TD></TR>
+<TR class="b">
+<TD class="left">in2</TD><TD class="left">double</TD><TD class="right">-0.00518122868759844</TD><TD class="right">0.428193249280442</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="a">
+<TD class="left">out</TD><TD class="left">double</TD><TD class="right">-0.4248168176147424</TD><TD class="right">0.428193249280442</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+</TABLE>
+
+<h2>Fixed-Point Report <span>basic_add<span></h2>
+<TABLE class="code">
+<TR>
+<TH class="cov padd">Simulation Coverage</TH>
+<TH>Code</TH>
+</TR>
+<TR>
+<TD class="cov white" style="background-color: rgb(5,112,9);">100%</TD>
+<TD class="padd"><pre>function [out] = basic_add(in1,in2)
+    out = in1 + in2;
+end</pre></TD>
+</TR>
+</TABLE>
+<TABLE><TR class="h"><th>Variable Name</th><th>Type</th><th>Sim Min</th><th>Sim Max</th><th>Static Min</th><th>Static Max</th><th>Whole Number</th><th>ProposedType <BR /> (Best For WL = 14)</th></TR><TR class="a">
+<TD class="left">in1</TD><TD class="left">double</TD><TD class="right">-0.4248168176147424</TD><TD class="right">0.428193249280442</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="b">
+<TD class="left">in2</TD><TD class="left">double</TD><TD class="right">-0.41031798140204345</TD><TD class="right">0.41210756389207404</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+<TR class="a">
+<TD class="left">out</TD><TD class="left">double</TD><TD class="right">-0.41031798140204345</TD><TD class="right">0.41210756389207404</TD><TD class="right"></TD><TD class="right"></TD><TD class="left">No</TD><TD class="left">numerictype(1, 14, 14)</TD></TR>
+</TABLE>
+
+</body>
+</html>

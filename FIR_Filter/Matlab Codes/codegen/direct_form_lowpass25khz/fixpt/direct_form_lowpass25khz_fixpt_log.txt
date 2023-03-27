@@ -1,0 +1,87 @@
+
+Warnings: 
+
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 13. The expression 'x_reg_1 = 0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 26. The expression 'x_reg_2 = 0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 39. The expression 'x_reg_3 = 0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 52. The expression 'x_reg_4 = 0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 65. The expression 'x_reg_5 = 0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 78. The expression 'x_reg_6 = 0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 91. The expression 'x_reg_7 = 0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 104. The expression 'x_reg_8 = 0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 117. The expression 'x_reg_9 = 0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 5, column : 127. The expression 'h0_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 6, column : 9. The expression 'h1_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 7, column : 9. The expression 'h2_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 8, column : 9. The expression 'h3_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 9, column : 9. The expression 'h4_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 10, column : 9. The expression 'h5_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 11, column : 9. The expression 'h6_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 12, column : 9. The expression 'h7_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 13, column : 9. The expression 'h8_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 14, column : 9. The expression 'h9_reg=0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 17, column : 11. The expression '[N1_mul] = basic_mul(x,h0_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 18, column : 11. The expression '[N2_mul] = basic_mul(x_reg_1,h1_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 19, column : 11. The expression '[N3_mul] = basic_mul(x_reg_2,h2_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 20, column : 11. The expression '[N4_mul] = basic_mul(x_reg_3,h3_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 21, column : 11. The expression '[N5_mul] = basic_mul(x_reg_4,h4_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 22, column : 11. The expression '[N6_mul] = basic_mul(x_reg_5,h5_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 23, column : 11. The expression '[N7_mul] = basic_mul(x_reg_6,h6_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 24, column : 11. The expression '[N8_mul] = basic_mul(x_reg_7,h7_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 25, column : 11. The expression '[N9_mul] = basic_mul(x_reg_8,h8_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 26, column : 12. The expression '[N10_mul] = basic_mul(x_reg_9,h9_reg);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 27, column : 12. The expression '[N11_mul] = basic_add(N1_mul,N2_mul);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 28, column : 12. The expression '[N12_mul] = basic_add(N3_mul,N11_mul);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 29, column : 12. The expression '[N13_mul] = basic_add(N4_mul,N12_mul);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 30, column : 12. The expression '[N14_mul] = basic_add(N5_mul,N13_mul);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 31, column : 12. The expression '[N15_mul] = basic_add(N6_mul,N14_mul);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 32, column : 12. The expression '[N16_mul] = basic_add(N7_mul,N15_mul);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 33, column : 12. The expression '[N17_mul] = basic_add(N8_mul,N16_mul);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 34, column : 12. The expression '[N18_mul] = basic_add(N9_mul,N17_mul);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 35, column : 12. The expression '[N19_mul] = basic_add(N10_mul,N18_mul);' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 37, column : 4. The expression 'y = N19_mul;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 39, column : 10. The expression 'x_reg_9 = x_reg_8;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 40, column : 10. The expression 'x_reg_8 = x_reg_7;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 41, column : 10. The expression 'x_reg_7 = x_reg_6;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 42, column : 10. The expression 'x_reg_6 = x_reg_5;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 43, column : 10. The expression 'x_reg_5 = x_reg_4;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 44, column : 10. The expression 'x_reg_4 = x_reg_3;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 45, column : 10. The expression 'x_reg_3 = x_reg_2;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 46, column : 10. The expression 'x_reg_2 = x_reg_1;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 47, column : 10. The expression 'x_reg_1 = x;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 48, column : 9. The expression 'h0_reg=h0;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 49, column : 9. The expression 'h1_reg=h1;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 50, column : 9. The expression 'h2_reg=h2;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 51, column : 9. The expression 'h3_reg=h3;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 52, column : 9. The expression 'h4_reg=h4;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 53, column : 9. The expression 'h5_reg=h5;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 54, column : 9. The expression 'h6_reg=h6;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 55, column : 9. The expression 'h7_reg=h7;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 56, column : 9. The expression 'h8_reg=h8;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 57, column : 9. The expression 'h9_reg=h9;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\node_fcn\basic_mul.m, line : 2, column : 9. The expression 'out = in1 * in2;' was not executed during simulation. Consider using a more thorough testbench.
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\node_fcn\basic_add.m, line : 2, column : 9. The expression 'out = in1 + in2;' was not executed during simulation. Consider using a more thorough testbench.
+Messages: 
+
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 17, column : 22. Could not find range for expression: 'basic_mul(x,h0_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 18, column : 22. Could not find range for expression: 'basic_mul(x_reg_1,h1_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 19, column : 22. Could not find range for expression: 'basic_mul(x_reg_2,h2_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 20, column : 22. Could not find range for expression: 'basic_mul(x_reg_3,h3_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 21, column : 22. Could not find range for expression: 'basic_mul(x_reg_4,h4_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 22, column : 22. Could not find range for expression: 'basic_mul(x_reg_5,h5_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 23, column : 22. Could not find range for expression: 'basic_mul(x_reg_6,h6_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 24, column : 22. Could not find range for expression: 'basic_mul(x_reg_7,h7_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 25, column : 22. Could not find range for expression: 'basic_mul(x_reg_8,h8_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 26, column : 23. Could not find range for expression: 'basic_mul(x_reg_9,h9_reg)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 27, column : 23. Could not find range for expression: 'basic_add(N1_mul,N2_mul)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 28, column : 23. Could not find range for expression: 'basic_add(N3_mul,N11_mul)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 29, column : 23. Could not find range for expression: 'basic_add(N4_mul,N12_mul)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 30, column : 23. Could not find range for expression: 'basic_add(N5_mul,N13_mul)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 31, column : 23. Could not find range for expression: 'basic_add(N6_mul,N14_mul)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 32, column : 23. Could not find range for expression: 'basic_add(N7_mul,N15_mul)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 33, column : 23. Could not find range for expression: 'basic_add(N8_mul,N16_mul)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 34, column : 23. Could not find range for expression: 'basic_add(N9_mul,N17_mul)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 35, column : 23. Could not find range for expression: 'basic_add(N10_mul,N18_mul)'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\direct_form_lowpass25khz.m, line : 37, column : 6. Could not find range for expression: 'N19_mul'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\node_fcn\basic_mul.m, line : 2, column : 15. Could not find range for expression: 'in1 * in2'
+File: C:\Users\Yunus\Desktop\Bitirme\Matlab_Codes\node_fcn\basic_add.m, line : 2, column : 15. Could not find range for expression: 'in1 + in2'
